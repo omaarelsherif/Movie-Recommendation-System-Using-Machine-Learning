@@ -38,7 +38,11 @@ This is list of required packages and modules for the project to be installed :
    ```
 2. Run the code from cmd
    ```sh
-   python movie_recommendation_system.py
+   python movie_recommendation_system.py "MOVIE_NAME"
+   ```
+  For example:
+   ```sh
+   python movie_recommendation_system.py Avatar
    ```
    
 <!-- REFERENCES -->
