@@ -40,7 +40,7 @@ This is list of required packages and modules for the project to be installed :
    ```sh
    python movie_recommendation_system.py "MOVIE_NAME"
    ```
-  For example:
+   For example:
    ```sh
    python movie_recommendation_system.py Avatar
    ```
