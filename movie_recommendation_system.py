@@ -9,6 +9,7 @@ Description:
 """
 
 ## Importing modules ##
+import sys
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -76,5 +77,5 @@ def give_recommendations(title, sig=sig):
     return movies_cleaned['original_title'].iloc[movie_indices]
 
 # 2.6 Test recommendation system
-movie_name = "Avatar"
+movie_name = sys.argv[1]
 print(f"The recommendations for {movie_name} Movie is : \n{give_recommendations(movie_name)}")
