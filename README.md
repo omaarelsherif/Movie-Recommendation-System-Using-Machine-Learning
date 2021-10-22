@@ -1,6 +1,10 @@
-
 <!-- PROJECT TITLE -->
 <h1 align="center">Movie Recommendation System</h1>
+
+<!-- HEADER -->
+<p align="center">
+  <img src="Images/Movie_Recom_Sys_Header.jpg"/>
+</p>
 
 <!-- PROJECT DESCRIPTION -->
 ## ➲ Project description
@@ -13,22 +17,38 @@ and Facebook uses it to recommend pages to like and people to follow.
 <!-- PREREQUISTIES -->
 ## ➲ Prerequisites
 This is list of required packages and modules for the project to be installed :
-* Python 3.x
-
+* <a href="https://www.python.org/downloads/" target="_blank">Python 3.x</a>
   <https://www.python.org/downloads>
-  
-* Pandas 
-  ```sh
-  pip install pandas
-  ```
+* Pandas
 * Numpy
-  ```sh
-  pip install numpy
-  ```
 * Scikit-learn
-  ```sh
-  pip install scikit-learn
-  ```
+
+<!-- THE DATASET -->
+## <br>**➲ The Dataset**
+Human activites dataset contain about 4803 record with 23 features,<br>
+like budget, geners, homepage and etc.<br>
+<br>**Dataset features :**<br>
+![](Images/Dataset_Columns.png)<br>
+<br>**Dataset head :**<br>
+![](Images/Dataset_Head.png)
+
+<!-- CODING SECTIONS -->
+## <br>**➲ Coding Sections**
+In this part we will see the project code divided to sections as follows:
+<br>
+
+- Section 1 | Data Preprocessing :<br>
+In this section we aim to do some operations on the dataset before training the model on it,
+<br>processes like :
+  - Load dataset
+  - Merge both credits and movies dataset
+  - Drop unnecessary columns<br><br>
+
+- Section 2 | Model Creation :<br>
+The dataset is ready for training, so we create a feature extraction model using scikit-learn and thin fit it to the data.<br>
+
+- Section 3 | Give recommendations :<br>
+Finally we use sigmoid kernel to make recommendation.
 
 <!-- INSTALLATION -->
 ## ➲ Installation
@@ -44,7 +64,28 @@ This is list of required packages and modules for the project to be installed :
    ```sh
    python movie_recommendation_system.py Avatar
    ```
-   
+<!-- OUTPUT -->
+## <br>**➲ Output**
+Now let's see the project output after running the code to recommend movies related to **"Avatar"** movie:
+
+**Credit dataset head :**<br>
+![](/Images/Output_1_Credits_Head.png)<br><br>
+
+**Movies dataset head :**<br>
+![](/Images/Output_2_Movies_Head.png)<br><br>
+
+**Merged dataset head :**<br>
+![](/Images/Output_3_Merged_Head.png)<br><br>
+
+**Cleaned dataset head :**<br>
+![](/Images/Output_4_Cleaned_Head.png)<br><br>
+
+**Sigmoid kernal :**<br>
+![](/Images/Output_5_Sigmoid_Kernal.png)<br><br>
+
+**Recommendations results :**<br>
+![](/Images/Output_6_Recommendations.png)<br><br>
+
 <!-- REFERENCES -->
 ## ➲ References
 These links may help you to better understanding of the project idea and techniques used :
