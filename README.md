@@ -7,7 +7,7 @@
 </p>
 
 <!-- PROJECT DESCRIPTION -->
-## ➲ Project description
+## <br>**➲ Project description**
 Recommendation systems are among the most popular applications of data science.
 They are used to predict the Rating or Preference that a user would give to an item.
 Almost every major company has applied them in some form or the other, Amazon uses it
@@ -15,7 +15,7 @@ to suggest products to customers, YouTube uses it to decide which video to play 
 and Facebook uses it to recommend pages to like and people to follow.
 
 <!-- PREREQUISTIES -->
-## ➲ Prerequisites
+## <br>**➲ Prerequisites**
 This is list of required packages and modules for the project to be installed :
 * <a href="https://www.python.org/downloads/" target="_blank">Python 3.x</a>
   <https://www.python.org/downloads>
@@ -51,7 +51,7 @@ The dataset is ready for training, so we create a feature extraction model using
 Finally we use sigmoid kernel to make recommendation.
 
 <!-- INSTALLATION -->
-## ➲ Installation
+## <br>**➲ Installation**
 1. Clone the repo
    ```sh
    git clone https://github.com/omaarelsherif/Movie-Recommendation-System-Using-Machine-Learning.git
@@ -87,14 +87,14 @@ Now let's see the project output after running the code to recommend movies rela
 ![](/Images/Output_6_Recommendations.png)<br><br>
 
 <!-- REFERENCES -->
-## ➲ References
+## <br>**➲ References**
 These links may help you to better understanding of the project idea and techniques used :
 1. Recommendation system in machine learning : https://bit.ly/3Aa62nN
 2. TfidfVectorizer : https://bit.ly/3nqkTqy
 3. Model evaluation : https://bit.ly/3B12VOO
 
 <!-- CONTACT -->
-## ➲ Contact
+## <br>**➲ Contact**
 - E-mail   : [omaarelsherif@gmail.com](mailto:omaarelsherif@gmail.com)
 - LinkedIn : https://www.linkedin.com/in/omaarelsherif/
 - Facebook : https://www.facebook.com/omaarelshereif
